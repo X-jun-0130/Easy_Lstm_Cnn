@@ -43,7 +43,7 @@ Training.py
 
 predict.py 模型用来对验证文本进行预测
 
-![evalutaing result](https://github.com/NLPxiaoxu/Easy_Rnn_Attention/blob/master/image/eva.jpeg)
+![evalutaing result](https://github.com/NLPxiaoxu/Easy_Lstm_Cnn/blob/master/image/predict.jpeg)
 
 验证结果表明，5000条文本准确率达96.5%，取前10条语句的测试结果与原标签对比。
 
