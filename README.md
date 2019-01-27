@@ -37,7 +37,7 @@ padding等
 ## 运行步骤
 Training.py 
 
-由于小霸王运行非常吃力，因此只进行了3次迭代。
+由于小霸王运行非常吃力，因此只进行了3次迭代。但从迭代的效果来看，结果很理想。在训练集的batch中最好达到98%，同时测试集达到100%准确。
 
 ![train and test result](https://github.com/NLPxiaoxu/Easy_Lstm_Cnn/blob/master/image/train.jpeg)
 
@@ -45,6 +45,5 @@ predict.py 模型用来对验证文本进行预测
 
 ![evalutaing result](https://github.com/NLPxiaoxu/Easy_Lstm_Cnn/blob/master/image/predict.jpeg)
 
-验证结果表明，5000条文本准确率达96.5%，取前10条语句的测试结果与原标签对比。
+验证结果表明，5000条文本准确率达97.26%，取前10条语句的测试结果与原标签对比。
 
-# 参考
