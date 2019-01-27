@@ -37,7 +37,7 @@ padding等
 ## 运行步骤
 Training.py 
 
-由于小霸王运行非常吃力，因此只进行了3次迭代。但从迭代的效果来看，结果很理想。在训练集的batch中最好达到98%，同时测试集达到100%准确。
+由于小霸王运行非常吃力，因此只进行了3次迭代。但从迭代的效果来看，结果很理想。在训练集的batch中最好达到100%，同时测试集达到100%准确。
 
 ![train and test result](https://github.com/NLPxiaoxu/Easy_Lstm_Cnn/blob/master/image/train.jpeg)
 
