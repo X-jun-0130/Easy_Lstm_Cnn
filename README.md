@@ -15,7 +15,7 @@ cnews.test.txt: 测试集(1000*10)
 
 # 1.利用Lstm+Cnn进行文本分类
 
-将LSTM与CNN连接在一起的关键：LSTM返回的值为[batch_size,seq_length,hidden_dim]。最重要的是使用一个mask矩阵，shape为[batch_size,seq_length,hidden_dim]，里面的值为1或者0，seq_length属于真实句子长度的部分hidden_dim值为1，超过句子真实长度的部分，hidden_dim值为0。这样让LSTM值与mask矩阵进行*，可以将padding增加的值归0。而cnn需要的四维张量，故需要用到tf.expang_dims。
+将LSTM与CNN连接在一起的关键：LSTM返回的值为[batch_size,seq_length,hidden_dim],而cnn需要的四维张量，故需要用到tf.expang_dims。
 
 ## 模型参数
 parameters.py
